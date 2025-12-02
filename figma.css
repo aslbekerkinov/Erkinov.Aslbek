@@ -1,0 +1,313 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+    width: 1600px;
+    height: 6692px;
+    display: flex;
+    flex-direction: column;
+
+}
+.navbar{
+    width: 1600px;
+    height: 900px;
+    background-image: url(./navbar_back.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url(bgproduct\ 1\ \(9\).jpg);
+}
+.navbar .nav{
+    width: 1600px;
+    height: 119px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    color: white;
+}
+.nav ul li {
+    list-style-type: none;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 200px;
+    position: relative;
+}
+.text button{
+    width: 180px;
+    height: 60px;
+    opacity: 1;
+}
+.text p{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 468px;
+    height: 48px;
+    top: 531px;
+    left: 200px;
+    opacity: 1;
+
+}
+.text h1{
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 936px;
+    height: 232px;
+    top: 269px;
+    left: 200px;
+    opacity: 1;
+}
+.amet{
+   width: 1600px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inamet{
+    width: 1200px;
+    height: 538px;
+    top: 1090px;
+    left: 200px;
+    opacity: 1;
+    display: flex;
+    gap: 430px;
+}
+.sonlar{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.sonlar div h1{
+    width: 210px;
+    height: 90px;
+    opacity: 1;
+    font-weight: 300;
+    font-style: Light;
+    font-size: 64px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #1D1D1F;
+    margin-bottom: 0;
+   
+}
+.sonlar div{
+    width: 210px;
+    height: 114px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+.dictum{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+/* button */
+.button{
+    width: 1400px;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inbutton{
+    width: 1200px;
+    height: 920px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 60px;
+}
+.eget{
+    width: 570px;
+    height: 222px;
+}
+.eget h1{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color:#838383;
+}
+.eget p{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    width: 570px;
+    height: 48px;
+}
+.eget button{
+    width: 180px;
+    height: 60px;
+    background: #1D1D1F;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}   
+.rasm1{    
+   width: 570px;
+   height: 400px;
+   top: 2638px;
+   left: 830px;
+
+   
+}
+.rasm {     
+    display: flex;
+    justify-content: center;
+    width: 1,600px;
+    height: 800px;  
+    top: 4444px;
+    
+}
+.rasm2{
+    width: 570px;
+    height: 400px;
+    top: 3158px;
+    left: 200px;
+
+
+}
+/* web apps */
+.webapps{
+    width: 1600px;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inwebapps{
+    width: 1200px;
+    height: 568.0001220703125px;
+    border-width: 1px ;
+    opacity: 1;
+}
+.inwebapps .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item p{
+    width: 570px;
+    height: 72px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.item h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+/* footer */
+.footer{
+    width: 1600px;
+    height: 400px;
+    background: #1D1D1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}
+.company h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: white;
+}
+.company p{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #838383;
+}
+.company div{
+    display: flex;
+    gap: 20px;
+}
+.oudio{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.oudio h1{
+    font-family: Inter;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    color: white;
+    width: 501px;
+    height: 84px;
+}
+.oudio form input{
+    width: 570px;
+    height: 44px;
+    border-bottom: 1px solid #838383;
+    opacity: 1;
+    border-left: none ;
+    border-right: none;
+    border-top: none;
+    background: #1D1D1F;
+    font-family: Inter;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 8%;
+    text-transform: uppercase;
+    
+}

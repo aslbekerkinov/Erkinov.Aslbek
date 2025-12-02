@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.container{
+    width: 1140px;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nleft{
+    display: flex;
+    padding-left: 60px;
+    gap: 20px;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+.navbar ul a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: #000;
+}
+.navbar .nright{
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+.navbar .nright button{
+    width: 168px;
+    height: 50px;
+    background-color: #000;
+}
+.navbar .nright button a{
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0%;
+    color: white;
+}
+.footer .mini1 h4{
+    display: flex;
+    align-items: center;
+     
+} 

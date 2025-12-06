@@ -450,17 +450,47 @@
 // ]
 // console.log(odamlar.map(a => `${a.ism} ${a.}`))
 
-let odamlar=[
-  {ism: "Ali", yosh: 32},
-  {ism: "Vali", yosh: 25},
-  {ism: "Salim", yosh: 45},
-  {ism: "Botir", yosh: 19},
-];
-let odamlar2=odamlar.sort((a,b) => b.yosh-a.yosh);
-console.log(odamlar)
-odamlar2.forEach((value, index)=> {
-     console.log(`${index+1}) ${value.ism}ning yili ${2025-value.yosh}`)
-})
+// let odamlar=[
+//   {ism: "Ali", yosh: 32},
+//   {ism: "Vali", yosh: 25},
+//   {ism: "Salim", yosh: 45},
+//   {ism: "Botir", yosh: 19},
+// ];
+// let odamlar2=odamlar.sort((a,b) => b.yosh-a.yosh);
+// console.log(odamlar)
+// odamlar2.forEach((value, index)=> {
+//      console.log(`${index+1}) ${value.ism}ning yili ${2025-value.yosh}`)
+// })
+
+//06.12.2025
+
+let person={
+   ism: "Hayotxon",
+   age:15,
+   manzili:'Navroz',
+   talim: {
+    maktabi: 13,
+    sinfi:9,
+    osono:24,
+ }
+  //  info: function(){
+  //   return `foydalanuvchining ismi ${this.ism} u ${this.age}
+  //   yoshda uning yashash joyi ${this.manzili}`
+  //  }
+}
+console.log(person)
+console.log(person.age)
+person.ism="bonu"
+person.manzili= "Chobalonchi";
+console.log(person)
+// console.log(person.info())
+console.log(person['age'])
+console.log(person.talim.osono)
+console.log(Object.keys(person))
+console.log(Object.values(person))
+console.log(Object.entries(person))
 
 
-
+let a={ism:'Bexruz'}
+let b={fam:'Yunusboyev'}
+console.log(Object.assign(b,a));  

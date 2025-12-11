@@ -464,33 +464,112 @@
 
 //06.12.2025
 
-let person={
-   ism: "Hayotxon",
-   age:15,
-   manzili:'Navroz',
-   talim: {
-    maktabi: 13,
-    sinfi:9,
-    osono:24,
- }
+// let person={
+//    ism: "Hayotxon",
+//    age:15,
+//    manzili:'Navroz',
+//    talim: {
+//     maktabi: 13,
+//     sinfi:9,
+//     osono:24,
+//  }
   //  info: function(){
   //   return `foydalanuvchining ismi ${this.ism} u ${this.age}
   //   yoshda uning yashash joyi ${this.manzili}`
   //  }
+// }
+// console.log(person)
+// console.log(person.age)
+// person.ism="bonu"
+// person.manzili= "Chobalonchi";
+// console.log(person)
+// // console.log(person.info())
+// console.log(person['age'])
+// console.log(person.talim.osono)
+// console.log(Object.keys(person))
+// console.log(Object.values(person))
+// console.log(Object.entries(person))
+
+
+// let a={ism:'Bexruz'}
+// let b={fam:'Yunusboyev'}
+
+//11,12,2025 for in
+
+// let person={
+//   name:'Bonu',
+//   age:14 ,
+//   country:'Uzbekistan'
+// }
+// console.log(person) 
+
+// for (let key in person){
+//   console.log(`${key}:${person[key]}`)
+// }
+
+// let meva=['olma','gilos','shaftoli','anor']
+// console.log(meva)
+// for(let i in meva){
+//   console.log(`${i+1}:${meva[i]}`)
+// }
+
+// let car = {
+//   brand:"Toyota",
+//   model:"Camry",
+//   year:2022
+// }
+
+// let keys=[];
+// for(let i in car){
+//   keys.push(i)
+// }
+//console.log(keys)
+// for(let i in car){
+//   keys.push(car[i]);
+// } ;
+// console.log(keys);
+
+// let mashina = {
+//   model:'BMW',
+//   years:2026,
+//   color:black
+// }
+// for(let x in mashina){
+//   console.log(x)
+// }
+// for(let x of mevalar){
+//   console.log(x)
+// }
+
+// let a='javaScript'
+// for(let x of a){
+//   console.log(x)  
+// } 
+
+// let s=['A','B','C','D','E','F','G','H']
+// console.log(s)
+// let a=[];
+// for(let x in s){
+//   if(x%3==0 && x!=0){
+//     a.push(s[x])
+//   } 
+// }
+// console.log(a)
+
+let person={
+  ism:'J',fam:'R',age:24,manzil:'U',
+  boy:178, razmer:50,ish:'IT Park',millat:'UZB'
 }
-console.log(person)
-console.log(person.age)
-person.ism="bonu"
-person.manzili= "Chobalonchi";
-console.log(person)
-// console.log(person.info())
-console.log(person['age'])
-console.log(person.talim.osono)
-console.log(Object.keys(person))
-console.log(Object.values(person))
-console.log(Object.entries(person))
+let a = []
+let e =[];
+for(let i in person){
+  e.push(i)
+}
+console.log(e);
 
-
-let a={ism:'Bexruz'}
-let b={fam:'Yunusboyev'}
-console.log(Object.assign(b,a));  
+for(let i in e){
+  if(i%2==0 && i!=0){
+    a.push(person[e[i]])
+  }
+}
+console.log(a)

@@ -556,20 +556,65 @@
 // }
 // console.log(a)
 
-let person={
-  ism:'J',fam:'R',age:24,manzil:'U',
-  boy:178, razmer:50,ish:'IT Park',millat:'UZB'
-}
-let a = []
-let e =[];
-for(let i in person){
-  e.push(i)
-}
-console.log(e);
+// let person={
+//   ism:'J',fam:'R',age:24,manzil:'U',
+//   boy:178, razmer:50,ish:'IT Park',millat:'UZB'
+// }
+// let a = []
+// let e =[];
+// for(let i in person){
+//   e.push(i)
+// }
+// console.log(e);
 
-for(let i in e){
-  if(i%2==0 && i!=0){
-    a.push(person[e[i]])
-  }
+// for(let i in e){
+//   if(i%2==0 && i!=0){
+//     a.push(person[e[i]])
+//   }
+// }
+// console.log(a)
+
+//13.12.2025 while loop
+ 
+// for(let i=1; i<=5; i++){
+//   console.log(i)
+// }
+// let j=1;
+// while(j<=5){
+//   console.log(j)
+//   j++
+// }
+
+// let word='Salom';
+// let i=0;
+// while(i<word.length){
+//   console.log(word[i])
+//   i++;
+// }
+
+// let sinf=['Sarvar','Bonu','Aslbek','Nurbek','Bexruz','Munira','Nodirbek']
+// let i=0;
+// while(i<sinf.length){
+//   console.log(sinf[i])
+//   i++
+// } 
+
+// let i=0;
+// while(true){
+//   console.log(i)
+//   if(i==5) break
+//   i++;
+let user = new Map([
+ ["name","Ali"],
+ ["age",25],
+ ["country","Uzbekistan"]
+
+]);
+console.log(user)
+console.log(person)
+let keys = user.keys();
+let key = keys.next();
+while (!key.done){
+  console.log(`${key.value}: ${user.get(key.value)}`)
+  key = keys.next();
 }
-console.log(a)

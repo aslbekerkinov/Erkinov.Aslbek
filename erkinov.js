@@ -585,36 +585,77 @@
 //   j++
 // }
 
-// let word='Salom';
-// let i=0;
-// while(i<word.length){
-//   console.log(word[i])
-//   i++;
+//  let word='Salom';
+//  let i=0;
+//  while(i<word.length){
+//    console.log(word[i])
+//    i++;
+//  }
+
+  //  let sinf=['Sarvar','Bonu','Aslbek','Nurbek','Bexruz','Munira','Nodirbek']
+  //  let i=0;
+  // while(i<sinf.length){
+  //    console.log(sinf[i])
+  //    i++
+  //  }  
+
+  // let i=0;
+  // while(true){
+  // console.log(i)
+  // if(i==5) break
+  //  i++;
+  // let user = new Map([
+  //  ["name","Ali"],
+  //  ["age",25],
+  //  ["country","Uzbekistan"]
+
+  // ]);
+   //console.log(user)
+   //console.log(person)
+// let keys = user.keys();
+// let key = keys.next();
+// while (!key.done){
+//     console.log(`${key.value} : ${user.get(key.value)}`)
+//     key = keys.next();
+//   }
+
+
+
+// let word2 = 'javaScript'
+// let index=0;
+// while(index<word2.length){
+//   console.log(word2[index])
+//   index++;
 // }
 
-// let sinf=['Sarvar','Bonu','Aslbek','Nurbek','Bexruz','Munira','Nodirbek']
-// let i=0;
-// while(i<sinf.length){
-//   console.log(sinf[i])
-//   i++
-// } 
+//16.12.2025 do while
 
-// let i=0;
-// while(true){
-//   console.log(i)
-//   if(i==5) break
+// let i = 1;
+
+// do{
+//   console.log(i);
 //   i++;
-let user = new Map([
- ["name","Ali"],
- ["age",25],
- ["country","Uzbekistan"]
 
-]);
-console.log(user)
-console.log(person)
-let keys = user.keys();
-let key = keys.next();
-while (!key.done){
-  console.log(`${key.value}: ${user.get(key.value)}`)
-  key = keys.next();
+// } while(i<5)
+// let sum=0, i=1;
+// do{
+//   sum=sum+i;
+//   i++
+// }while(i<=10);
+// console.log(sum)
+
+// let number;
+
+// while(number!==1111){
+//   number=parseInt(prompt('parolni kiriting'))
+// }
+// console.log('parol tasdiqlandi')
+
+let son=12345;
+let teskari=0;
+while(son>0){
+  let oson=son%10;
+  teskari=teskari*10+oson;
+  son=Math.floor(son/10)
 }
+console.log(teskari)

@@ -651,11 +651,35 @@
 // }
 // console.log('parol tasdiqlandi')
 
-let son=12345;
-let teskari=0;
-while(son>0){
-  let oson=son%10;
-  teskari=teskari*10+oson;
-  son=Math.floor(son/10)
-}
-console.log(teskari)
+// let son=12345;
+// let teskari=0;
+// while(son>0){
+//   let oson=son%10;
+//   teskari=teskari*10+oson;
+//   son=Math.floor(son/10)
+// }
+// console.log(teskari)
+
+//18.12.2025 funksiya
+
+// let son = 123;
+// let sum=0;
+// while(son>0){
+//   sum=sum+son%10;
+//   son=Math.floor(son/10)
+// }
+// console.log(sum)
+
+// for(let i=2; i<=50; i++){
+//   let sanoqchi=0;
+//   for(let j=1; j<i; j++){
+//     if(i%j==0){
+//       sanoqchi++;
+//     }
+//   }
+//   if(sanoqchi==1){
+//     console.log(i)
+//   }
+// }
+
+

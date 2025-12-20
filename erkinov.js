@@ -682,4 +682,81 @@
 //   }
 // }
 
+// let num=370;
+// let orginalNum=num;
+// let digits=num.toString().length;
+// while(num>0){
+//   let digit=num%10;
+//   sum+=Math.pow(digit,digits);
+//   num=Math.floor(num/10);
+// }
+// if(sum===originalNum){
+//   console.log(`${orginalNum}Armstong son!`)
+// }else{
+//   console.log(`${orginalNum}Armsrong son emas!`)
+// }
 
+//20.12.2025 functions
+
+// function salomber(){
+//   console.log(`salooom !!`)
+// }
+// salomber();
+// salomber();
+
+// function SalomUser(ism,fam){
+//   console.log(`salom ${fam} ${ism} Saytimizga hush kelibsiz!!`)
+// }
+// SalomUser('bexruz')
+
+// function kvadrat(n){
+//   return n*n
+// }
+//  console.log(kvadrat(4)+kvadrat(5))
+
+//  function summa(n){
+//   let box=0;
+//   for(let i=1; i<=n; i++ ){
+//       box=box+i;
+//   }
+//     return console.log(`1 dan ${n} gachin raqamlar yigindisi ${box} ga teng`)
+//  }
+// summa(100)
+
+// function faktirial(n){
+//   let box=1;
+//   for(let i=1; i<=n; i++ ){
+//     box=box*i;
+//   }
+//   return console.log(`1 dan ${n} gachin raqamli yigindisi ${box} ga teng`)
+// }
+// faktirial(10)
+
+// function orta(n){
+//   let box2=y;
+//   for(let i=1; i<=n; i++){
+//     y=Number(prompt(`${i} - son =`))
+//     box2=box2+i
+//   }
+//   box2=box2/n
+//   return console.log(`1 dan ${n} gacha orta sonlar: ${box2}`)
+
+// }
+// orta(100)
+
+// x=Number(prompt('x='))
+// orta(x)
+
+function arif(x){
+    let ns=[]
+    let box=0;
+    for(let i=1; i<=x; i++){
+      y=Number(prompt(`${i} - raqam =`))
+      box=box+y;
+      ns.push(y)
+    }
+    return console.log(`${ns} raqamlarning arifmetiki ${box/x}`)
+
+}
+leta=Number(prompt('a='))
+arif(a);
